@@ -1,0 +1,25 @@
+.content-3_container{
+
+}
+.content-3_row{
+    display:flex;
+    justify-content:center;
+}
+.content-3_column{
+    width:25%;
+}
+.content-3_column img{
+    width:60%;
+}
+.content-3_column-title{
+   text-align: center;
+}
+.content-3_column-img{
+   text-align: center;
+}
+.content-3_title{
+    text-align: center;
+}
+.content-3_title h1{
+ font-size: 30px;
+}

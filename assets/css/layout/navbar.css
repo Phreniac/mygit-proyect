@@ -1,0 +1,36 @@
+.navbar_container{
+    display:flex;
+    background-color: gray;
+}
+.navbar_icon{
+    padding: 10px 20px 10px 40px;
+}
+.navbar_icon img{
+    width:50px;
+}
+.navbar_buttons{
+     
+}
+.navbar_buttons ul{
+    display:flex;
+    list-style: none;
+    color: white;
+}
+.navbar_buttons li{
+   padding: 10px 20px;
+}
+.navbar_buttons ul li:hover{
+     text-decoration: none;
+     color: white;
+     background: rgba(0,40,0,0.4);
+}
+.navbar_buttons ul li a{
+     text-decoration: none;
+     color: white;
+}
+.navbar_buttons ul li a:hover{
+     color:aqua;
+}
+.navbar_buttons ul li a:active{
+     color:crimson;
+}

@@ -1,0 +1,14 @@
+/* CSS para Componentes*/
+@import './component/titles.css';
+@import './component/content-1.css';
+@import './component/content-2.css';
+@import './component/content-3.css';
+/* CSS BASE*/
+@import './base/reset.css';
+@import './base/classes.css';
+
+/* CSS para el layout*/
+@import './layout/header.css';
+@import './layout/footer.css';
+@import './layout/navbar.css';
+@import './layout/sidebar.css';

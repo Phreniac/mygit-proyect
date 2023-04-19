@@ -1,0 +1,37 @@
+.title_container{
+     height:80%;
+     background-color: aqua;
+}
+.title_background{
+    width: 100%;
+    height:100%;
+    position:relative;
+     overflow: hidden;
+}
+.title_background .background_image{
+    position:absolute;
+    top:-30px;
+    left:0;
+    z-index:1;
+}
+.title_background .background_image img{
+     width: 100%;
+}
+.title_content{
+    position:absolute;
+    top:50px;
+    right:80px;
+    z-index:2;
+    color:white;
+    text-shadow: 0px 3px 6px rgba(0,0,0,0.8);
+    text-align: right;
+}
+.title_content h1{
+    font-size: 42px;
+    margin-bottom:20px;
+}
+.title_content h2{
+    margin-top: 0;
+    font-size: 28px;
+    font-weight:400;
+}
